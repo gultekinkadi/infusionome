@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sivi_hacmi">Sıvı Hacmi (ml)</string>
+    <string name="ilac_hacmi">İlaç Hacmi (ml)</string>
+    <string name="kilo">Kilo (kg)</string>
+    <string name="ilac_miktari">İlaç Miktarı</string>
+    <string name="istenen_doz">İstenen Doz</string>
+    <string name="drop_faktor">Damla Faktörü (damla/ml)</string>
+    <string name="change_volume">Ses Değiştir</string>
+    <string name="change_vibration">Titreşim Değiştir</string>
+    <string name="calculate">Hesapla</string>
+    <string name="sivi_hacmi_giriniz">Sıvı hacmi giriniz</string>
+    <string name="ilac_hacmi_giriniz">İlaç hacmi giriniz</string>
+    <string name="ilac_miktari_giriniz">İlaç miktarı giriniz</string>
+    <string name="kilo_giriniz">Kilo giriniz</string>
+    <string name="istenen_doz_giriniz">İstenen doz giriniz</string>
+    <string name="gecersiz_deger_girisi">Geçersiz değer girişi\nGirdiğiniz değerleri kontrol ediniz</string>
+    <string name="sifir_deger">Değerler sıfırdan büyük olmalıdır</string>
+    <string name="birim_uyumsuz">İlaç miktarı ve doz birimleri uyumsuz.\nİkisinde de \"Ü\" ya da ikisinde de kütle birimi (mcg/mg/g) seçiniz.</string>
+    <string name="sonuc">Hesaplama Sonucu</string>
+    <string name="result">Sonuç</string>
+    <string name="damla_dk">Damla/dk</string>
+    <string name="aralik_sayisi">Aralık (sn)</string>
+    <string name="ml_saat">Hız (ml/saat)</string>
+    <string name="konsantrasyon">Konsantrasyon</string>
+    <string name="uyari_cok_hizli">Çok hızlı damla (dakikada 120 üzeri): gözle sayım güvenilir değildir. İnfüzyon pompası ya da daha düşük damla faktörlü set düşününüz. Metronom saniyede en fazla 4 vuruşla sınırlıdır.</string>
+    <string name="uyari_cok_yavas">Çok yavaş damla (dakikada 5 altı): doğruluk düşüktür. İnfüzyon pompası ya da daha yüksek damla faktörlü set (örn. mikroset 60) düşününüz.</string>
+    <string name="sesi_kapat">Sesi Kapat</string>
+    <string name="sesi_ac">Sesi Aç</string>
+    <string name="titresimi_ac">Titreşimi aç</string>
+    <string name="titresimi_kapat">Titreşimi kapat</string>
+    <string name="ses_acildi">Ses açıldı</string>
+    <string name="ses_kapatildi">Ses kapandı</string>
+    <string name="titresim_acildi">Titreşim etkinleştirildi</string>
+    <string name="titresim_kapandi">Titreşim kapatıldı</string>
+    <string name="dil_degistir">Dil Değiştir</string>
+    <string name="info">Bilgi</string>
+    <string name="info_message">infusionome®\nSürüm %1$s\nTüm hakları saklıdır\n\nUygulamadan önce sonucu mutlaka kontrol ediniz.\n\nSoru, görüş ve önerileriniz için\ninfusionome@gmail.com</string>
+
+    <string-array name="amount_units">
+        <item>mcg</item>
+        <item>mg</item>
+        <item>g</item>
+        <item>Ü</item>
+    </string-array>
+    <string-array name="dose_units">
+        <item>mcg/kg/dk</item>
+        <item>mcg/dk</item>
+        <item>mcg/kg/saat</item>
+        <item>mg/kg/saat</item>
+        <item>mg/saat</item>
+        <item>mg/dk</item>
+        <item>Ü/kg/saat</item>
+        <item>Ü/saat</item>
+        <item>Ü/dk</item>
+    </string-array>
+    <string name="conc_mcg_ml">%1$s mcg/ml</string>
+    <string name="conc_mg_ml">%1$s mg/ml</string>
+    <string name="conc_u_ml">%1$s Ü/ml</string>
+</resources>

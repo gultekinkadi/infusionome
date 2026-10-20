@@ -11,4 +11,7 @@
     <color name="color1">#231B1B</color>
     <color name="color2">#6B5252</color>
     <color name="color3">#E3DBDB</color>
+
+    <color name="warning_bg">#FFF3CD</color>
+    <color name="warning_text">#7A4B00</color>
 </resources>

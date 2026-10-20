@@ -1,23 +1,30 @@
 <resources>
-    <string name="app_name">infusionome</string>
-    <string name="sivi_hacmi">Liquid Volume (ml)</string>
+    <string name="app_name" translatable="false">infusionome</string>
+    <string name="sivi_hacmi">Fluid Volume (ml)</string>
     <string name="ilac_hacmi">Drug Volume (ml)</string>
-    <string name="ilac_miktari">Medication Amount (mcg)</string>
-    <string name="kilo">Kilo (kg)</string>
-    <string name="istenen_doz">Desired Dose (mcg/kg/min)</string>
-    <string name="drop_faktor">Drop Factor</string>
+    <string name="ilac_miktari">Drug Amount</string>
+    <string name="kilo">Weight (kg)</string>
+    <string name="istenen_doz">Desired Dose</string>
+    <string name="drop_faktor">Drop Factor (gtt/ml)</string>
     <string name="change_volume">Change Volume</string>
     <string name="change_vibration">Change Vibration</string>
     <string name="calculate">Calculate</string>
-    <string name="sivi_hacmi_giriniz">Enter liquid volume</string>
+    <string name="sivi_hacmi_giriniz">Enter fluid volume</string>
     <string name="ilac_hacmi_giriniz">Enter drug volume</string>
-    <string name="ilac_miktari_giriniz">Enter the amount of medicine</string>
-    <string name="kilo_giriniz">Enter kilo</string>
+    <string name="ilac_miktari_giriniz">Enter drug amount</string>
+    <string name="kilo_giriniz">Enter weight</string>
     <string name="istenen_doz_giriniz">Enter desired dose</string>
     <string name="gecersiz_deger_girisi">Invalid value input\nCheck the values you entered</string>
+    <string name="sifir_deger">Values must be greater than zero</string>
+    <string name="birim_uyumsuz">Drug amount and dose units do not match.\nUse \"U\" for both, or a mass unit (mcg/mg/g) for both.</string>
     <string name="sonuc">Calculation Result</string>
     <string name="result">Result</string>
-    <string name="aralik_sayisi">Range (s)</string>
+    <string name="damla_dk">Drops/min</string>
+    <string name="aralik_sayisi">Interval (s)</string>
+    <string name="ml_saat">Rate (ml/h)</string>
+    <string name="konsantrasyon">Concentration</string>
+    <string name="uyari_cok_hizli">Very fast drip rate (over 120 drops/min): counting by eye is unreliable. Consider an infusion pump or a lower drop factor set. The metronome is limited to 4 beats per second.</string>
+    <string name="uyari_cok_yavas">Very slow drip rate (under 5 drops/min): accuracy is low. Consider an infusion pump or a higher drop factor set (e.g. micro-drip 60).</string>
     <string name="sesi_kapat">Disable sound</string>
     <string name="sesi_ac">Enable sound</string>
     <string name="titresimi_ac">Enable vibration</string>
@@ -28,5 +35,26 @@
     <string name="titresim_kapandi">Vibration disabled</string>
     <string name="dil_degistir">Change Language</string>
     <string name="info">Info</string>
-    <string name="info_message">infusionoma (R)\nAll rights reserved\nFor your questions, comments and suggestions\ninfusionome@gmail.com</string>
+    <string name="info_message">infusionome®\nVersion %1$s\nAll rights reserved\n\nAlways double-check the result before administering.\n\nFor your questions, comments and suggestions\ninfusionome@gmail.com</string>
+
+    <string-array name="amount_units">
+        <item>mcg</item>
+        <item>mg</item>
+        <item>g</item>
+        <item>U</item>
+    </string-array>
+    <string-array name="dose_units">
+        <item>mcg/kg/min</item>
+        <item>mcg/min</item>
+        <item>mcg/kg/h</item>
+        <item>mg/kg/h</item>
+        <item>mg/h</item>
+        <item>mg/min</item>
+        <item>U/kg/h</item>
+        <item>U/h</item>
+        <item>U/min</item>
+    </string-array>
+    <string name="conc_mcg_ml">%1$s mcg/ml</string>
+    <string name="conc_mg_ml">%1$s mg/ml</string>
+    <string name="conc_u_ml">%1$s U/ml</string>
 </resources>
