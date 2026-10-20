@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color1">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color1"
+            app:title="@string/app_name"
+            app:titleTextColor="@color/white" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color2"
+                android:orientation="vertical"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="8dp">
+
+                <!-- Sıvı hacmi -->
+                <LinearLayout style="@style/FormRow">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/sivi_hacmi" />
+                    <EditText
+                        android:id="@+id/main_sivi_hacmi"
+                        style="@style/FormInput"
+                        android:importantForAutofill="no" />
+                </LinearLayout>
+
+                <!-- İlaç hacmi -->
+                <LinearLayout style="@style/FormRow">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/ilac_hacmi" />
+                    <EditText
+                        android:id="@+id/main_ilac_hacmi"
+                        style="@style/FormInput"
+                        android:hint="0"
+                        android:importantForAutofill="no" />
+                </LinearLayout>
+
+                <!-- İlaç miktarı + birim -->
+                <LinearLayout style="@style/FormRow">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/ilac_miktari" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/main_ilac_miktari"
+                            style="@style/FormInput"
+                            android:importantForAutofill="no" />
+                        <Spinner
+                            android:id="@+id/main_ilac_birim"
+                            style="@style/FormUnitSpinner" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- İstenen doz + birim -->
+                <LinearLayout style="@style/FormRow">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/istenen_doz" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <EditText
+                            android:id="@+id/main_doz"
+                            style="@style/FormInput"
+                            android:importantForAutofill="no" />
+                        <Spinner
+                            android:id="@+id/main_doz_birim"
+                            style="@style/FormUnitSpinner" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Kilo (yalnızca /kg dozlarda) -->
+                <LinearLayout
+                    android:id="@+id/main_kilo_row"
+                    style="@style/FormRow">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/kilo" />
+                    <EditText
+                        android:id="@+id/main_kilo"
+                        style="@style/FormInput"
+                        android:importantForAutofill="no" />
+                </LinearLayout>
+
+                <!-- Damla faktörü -->
+                <LinearLayout
+                    style="@style/FormRow"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        style="@style/FormLabel"
+                        android:text="@string/drop_faktor" />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:orientation="vertical">
+                        <Spinner
+                            android:id="@+id/main_drop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/color3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/main_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/color2"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="20dp"
+                android:text="@string/calculate"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

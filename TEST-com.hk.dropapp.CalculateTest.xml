@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hk.dropapp.CalculateTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-20T07:06:26.281Z" hostname="runnervm8k3b6" time="0.006">
+  <properties/>
+  <testcase name="dopamineExample" classname="com.hk.dropapp.CalculateTest" time="0.002"/>
+  <testcase name="zeroAndMissingWeightRejected" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="heparinUnitsPerHour" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="mgEqualsThousandMcg" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="parseAcceptsComma" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="matchesOriginalFormula" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="unitMismatchRejected" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <testcase name="midazolamMgPerHourNoWeightNeeded" classname="com.hk.dropapp.CalculateTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

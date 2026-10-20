@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_volume_up_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_volume_up_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_tr.jpeg.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/tr.jpeg"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/raw_beep.mp3.flat",
+        "source": "com.hk.dropapp-main-25:/raw/beep.mp3"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/anim_slide_up.xml.flat",
+        "source": "com.hk.dropapp-main-25:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_vibration_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_vibration_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/xml_locales_config.xml.flat",
+        "source": "com.hk.dropapp-main-25:/xml/locales_config.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_usa.png.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/usa.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_damla.png.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/damla.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/xml_backup_rules.xml.flat",
+        "source": "com.hk.dropapp-main-25:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/xml_data_extraction_rules.xml.flat",
+        "source": "com.hk.dropapp-main-25:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.hk.dropapp-pngs-19:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/layout_spinner_item.xml.flat",
+        "source": "com.hk.dropapp-main-25:/layout/spinner_item.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/layout_activity_calculate.xml.flat",
+        "source": "com.hk.dropapp-main-25:/layout/activity_calculate.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/menu_main_menu.xml.flat",
+        "source": "com.hk.dropapp-main-25:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/layout_activity_main.xml.flat",
+        "source": "com.hk.dropapp-main-25:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_mobile_off_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_mobile_off_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_volume_off_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_volume_off_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_border.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/border.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_info_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.hk.dropapp-main-25:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/layout_dialog_select_language.xml.flat",
+        "source": "com.hk.dropapp-main-25:/layout/dialog_select_language.xml"
+    },
+    {
+        "merged": "com.hk.dropapp-debug-23:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.hk.dropapp-debug-24:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
