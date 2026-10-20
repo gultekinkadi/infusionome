@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/change_volume"
+        android:title="@string/change_volume"
+        android:icon="@drawable/ic_baseline_volume_off_24"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/change_vibration"
+        android:title="@string/change_vibration"
+        android:icon="@drawable/ic_baseline_vibration_24"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/menu_info"
+        android:title="@string/info"
+        android:icon="@drawable/ic_baseline_info_24"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/change_language"
+        android:title="@string/dil_degistir"
+        />
+</menu>

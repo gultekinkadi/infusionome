@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">infusionome</string>
+    <string name="sivi_hacmi">Liquid Volume (ml)</string>
+    <string name="ilac_hacmi">Drug Volume (ml)</string>
+    <string name="ilac_miktari">Medication Amount (mcg)</string>
+    <string name="kilo">Kilo (kg)</string>
+    <string name="istenen_doz">Desired Dose (mcg/kg/min)</string>
+    <string name="drop_faktor">Drop Factor</string>
+    <string name="change_volume">Change Volume</string>
+    <string name="change_vibration">Change Vibration</string>
+    <string name="calculate">Calculate</string>
+    <string name="sivi_hacmi_giriniz">Enter liquid volume</string>
+    <string name="ilac_hacmi_giriniz">Enter drug volume</string>
+    <string name="ilac_miktari_giriniz">Enter the amount of medicine</string>
+    <string name="kilo_giriniz">Enter kilo</string>
+    <string name="istenen_doz_giriniz">Enter desired dose</string>
+    <string name="gecersiz_deger_girisi">Invalid value input\nCheck the values you entered</string>
+    <string name="sonuc">Calculation Result</string>
+    <string name="result">Result</string>
+    <string name="aralik_sayisi">Range (s)</string>
+    <string name="sesi_kapat">Disable sound</string>
+    <string name="sesi_ac">Enable sound</string>
+    <string name="titresimi_ac">Enable vibration</string>
+    <string name="titresimi_kapat">Disable vibration</string>
+    <string name="ses_acildi">Sound enabled</string>
+    <string name="ses_kapatildi">Sound disabled</string>
+    <string name="titresim_acildi">Vibration enabled</string>
+    <string name="titresim_kapandi">Vibration disabled</string>
+    <string name="dil_degistir">Change Language</string>
+    <string name="info">Info</string>
+    <string name="info_message">infusionoma (R)\nAll rights reserved\nFor your questions, comments and suggestions\ninfusionome@gmail.com</string>
+</resources>
