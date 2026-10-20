@@ -10,24 +10,39 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
+
+      - uses: android-actions/setup-android@v3
 
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.13'
 
-      - name: Testler
-        run: gradle --no-daemon testDebugUnitTest
+      - name: Testler ve APK
+        run: |
+          set -o pipefail
+          gradle --no-daemon --stacktrace testDebugUnitTest assembleDebug 2>&1 | tee build.log
 
-      - name: APK derle
-        run: gradle --no-daemon assembleDebug
+      - name: Hata kaydını depoya yaz (yalnızca başarısızlıkta)
+        if: failure()
+        run: |
+          git config user.name "build-bot"
+          git config user.email "build-bot@users.noreply.github.com"
+          mkdir -p /tmp/log && cp build.log /tmp/log/ 2>/dev/null || echo "build.log yok" > /tmp/log/build.log
+          find app/build -name '*.xml' -path '*test-results*' -exec cp {} /tmp/log/ \; 2>/dev/null || true
+          git checkout --orphan build-log
+          git rm -rfq . || true
+          cp /tmp/log/* .
+          git add -A
+          git commit -qm "Derleme hatası kaydı: ${GITHUB_SHA}"
+          git push -f origin build-log
 
       - name: APK'yı yeniden adlandır
         run: |
