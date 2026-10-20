@@ -1,0 +1,35 @@
++ mkdir -p shots
++ PKG=com.hk.dropapp
++ adb wait-for-device
++ adb shell settings put global window_animation_scale 0
++ adb shell settings put global transition_animation_scale 0
++ adb shell settings put global animator_duration_scale 0
++ adb install -r app/build/outputs/apk/debug/app-debug.apk
+Performing Streamed Install
+Success
++ adb shell cmd locale set-app-locales com.hk.dropapp --locales tr
++ adb shell am start -n com.hk.dropapp/.Activity.MainActivity
+Starting: Intent { cmp=com.hk.dropapp/.Activity.MainActivity }
++ shot 1-ana-ekran-bos 6
++ sleep 6
++ adb exec-out screencap -p
++ typein main_sivi_hacmi 250
+++ center main_sivi_hacmi
+++ adb shell uiautomator dump /sdcard/ui.xml
+++ adb exec-out cat /sdcard/ui.xml
+++ python3 - main_sivi_hacmi
++ xy='790 859'
++ '[' -n '790 859' ']'
++ adb shell input tap 790 859
++ sleep 1
++ adb shell input text 250
++ typein main_ilac_miktari 400
+++ center main_ilac_miktari
+++ adb shell uiautomator dump /sdcard/ui.xml
+++ adb exec-out cat /sdcard/ui.xml
+++ python3 - main_ilac_miktari
++ xy='678 785'
++ '[' -n '678 785' ']'
++ adb shell input tap 678 785
++ sleep 1
++ adb shell input text 400
